@@ -73,3 +73,292 @@
 .text {
 	margin: auto 0;
 }
+
+/* HABIBDEV */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.d-inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-xs-center, .text-sm-center {
+  text-align: center;
+}
+
+.bordered-footer {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+/* newsletter */
+
+.block_newsletter {
+  .alert {
+    margin-top: 5px;
+  }
+
+  h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  p {
+    margin-bottom: 0;
+    color: #999;
+    margin-top: 10px;
+  }
+
+  form .btn-primary {
+    margin: 0 10px;
+  }
+
+  padding: 40px 15px;
+}
+
+/* footer */
+
+.newsftr {
+  /*padding: 40px 0;*/
+  max-width: 1200px;
+  margin: 0 auto;
+
+  li a {
+    color: #ddd;
+    position: relative;
+
+    /* text-transform: capitalize;  @disabled no need */
+
+    &:hover {
+      color: #008037;
+    }
+  }
+}
+
+/*
+.newsftr li a::after {
+    content: '|';
+    margin: 0 8px;
+    color: #ddd font-size: 15px;
+}
+
+.newsftr li:last-child a::after {
+    display: none
+}
+*/
+
+#scroll {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+  background: #008037;
+  min-width: 40px;
+  min-height: 40px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  opacity: 1;
+  transition: all 0.5s ease-in-out 0s;
+  transform: scale(1);
+  padding: 10px 0;
+  border-radius: 4px;
+
+  &.scrollhide {
+    bottom: -100px;
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+.email {
+  word-break: break-all;
+}
+
+#footer_contact .icon {
+  margin-right: 15px;
+}
+
+.links h3 {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+
+  a {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+}
+
+.c-info {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-container li a {
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 33px;
+  color: #ddd;
+  padding: 0;
+  transition: 0.3s all ease-in-out;
+}
+
+.fthr {
+  .block, .data a {
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 33px;
+    color: #ddd;
+    padding: 0;
+    transition: 0.3s all ease-in-out;
+  }
+}
+
+#footer #block_myaccount_infos .lnk_wishlist {
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 33px;
+  color: #ddd;
+  padding: 0;
+  transition: 0.3s all ease-in-out;
+}
+
+.footer-container li a:hover {
+  color: #008037;
+  opacity: 1;
+}
+
+.fthr {
+  .block:hover, .data a:hover {
+    color: #008037;
+    opacity: 1;
+  }
+}
+
+#footer #block_myaccount_infos .lnk_wishlist:hover {
+  color: #008037;
+  opacity: 1;
+}
+
+.footer-container {
+  padding: 50px 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+#footer_contact .icon svg {
+  fill: #008037;
+}
+
+#footer {
+  .data {
+    margin-left: 34px;
+  }
+
+  #block_myaccount_infos .lnk_wishlist {
+    i {
+      display: none;
+    }
+
+    float: none;
+    padding: 0;
+  }
+}
+
+.fthr h3 {
+  margin-top: 25px;
+}
+
+.block-social li, .foot-payment li, .footsmenu li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.foot-payment li {
+  a {
+    font-size: 24px;
+    color: #aaa;
+
+    &:hover {
+      color: #008037;
+    }
+  }
+
+  i {
+    margin: 0 5px;
+    transition: 0.3s ease;
+  }
+}
+
+.block-social {
+  margin-top: 15px;
+
+  li a {
+    line-height: normal;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ebebeb;
+    min-width: 35px;
+    min-height: 35px;
+    padding: 3px 0 0 0;
+    margin: 1px;
+    border-radius: 4px;
+    color: #777;
+
+    &:hover {
+      background-color: #008037;
+      color: #fff !important;
+    }
+  }
+}
+
+#footer {
+  margin-top: 60px;
+  background-color: #000;
+}
+
+.copy {
+  padding: 15px 0;
+  border-top: 1px solid #333;
+
+  a._blank {
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+
+    &:hover {
+      color: #008037;
+    }
+  }
+}
